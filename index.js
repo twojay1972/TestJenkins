@@ -4,7 +4,7 @@ const app = express();
 var server = http.createServer(app);
 
 app.get('/', function(req, res){
-    res.send('I like twojay! new pm2 before stopo');
+    res.send('I like twojay! new pm2 before stopokill all');
 });
 
 app.get('/start', function(req, res){
